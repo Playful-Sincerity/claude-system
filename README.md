@@ -1,8 +1,10 @@
 # Claude Code Meta-System
 
-A complete, working configuration system for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — treating your AI assistant setup as a first-class software project with version control, modular capabilities, and accumulated knowledge.
+**This is not just for code.** This system is used daily for research, business operations, event planning, writing, learning Mandarin, managing a consulting practice, and yes — also software engineering. Claude Code is a general-purpose AI partner, and this configuration treats it that way.
 
-**What's inside:** 18 behavioral rules, 12 slash-command skills, 2 composite agents, 7 hook scripts, and a curated knowledge base of Claude Code best practices — all tested and refined through daily use across 20+ projects.
+A living, evolving system for getting the most out of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — treating your AI assistant setup as a first-class project with version control, modular capabilities, and accumulated knowledge. It's not finished. It changes every day. What you see here is a snapshot of what's working right now.
+
+**What's inside:** 18 behavioral rules, 12 slash-command skills, 2 composite agents, 7 hook scripts, and a curated knowledge base — all tested and refined through daily use across 20+ projects spanning software, research, events, business, and personal development.
 
 ## Quick Start
 
@@ -176,11 +178,13 @@ Starter templates for creating new components:
 | [RULE-TEMPLATE.md](templates/RULE-TEMPLATE.md) | New behavioral rules |
 | [MEMORY-TEMPLATE.md](templates/MEMORY-TEMPLATE.md) | New memory files |
 
-## Origin
+## Origin & Philosophy
 
-This system was extracted from a private Claude Code setup used daily across 20+ projects spanning software, research, events, and business operations. The methodology, knowledge, and patterns are real — tested through months of intensive use. Personal references have been removed; the engine remains.
+This system was extracted from a private setup used daily across 20+ projects — not just code repos, but research papers, event operations, a consulting business, language learning, and personal development. The methodology, knowledge, and patterns are real. Personal references have been removed; the engine remains.
 
-The three-layer architecture was inspired by a personal development framework (Foundations → Methods → Domains) that maps naturally to how AI assistant configuration should be structured.
+It's a work in progress. Some parts are polished, others are rough. The knowledge base grows every day. Rules get added when something goes wrong and refined when they're too strict. Skills evolve from experiments into reliable tools. That's the point — a system that grows with you, not a finished product you install and forget.
+
+The three-layer architecture was inspired by a personal development framework (Foundations → Methods → Domains) that maps naturally to how AI assistant configuration should be structured: who you are first, what you can do second, what you're working on last.
 
 ## License
 
