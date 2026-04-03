@@ -8,7 +8,7 @@ A complete, working configuration system for [Claude Code](https://docs.anthropi
 
 ```bash
 # Clone the repo
-git clone https://github.com/WisdomPatienceHappy/claude-system-public.git ~/claude-system
+git clone https://github.com/Playful-Sincerity/claude-system.git ~/claude-system
 
 # Run setup (creates symlinks from ~/.claude/ → ~/claude-system/)
 cd ~/claude-system
