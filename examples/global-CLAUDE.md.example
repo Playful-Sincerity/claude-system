@@ -1,0 +1,42 @@
+# My Project Ecosystem
+
+This file loads into every Claude Code conversation automatically.
+Use it to map your projects so Claude understands cross-project relationships.
+
+## Project Map
+
+| Project | Path | What It Is |
+|---------|------|------------|
+| My App | `~/projects/my-app/` | Main web application (React + Node.js) |
+| API Server | `~/projects/api-server/` | Backend API service |
+| Shared Libs | `~/projects/shared-libs/` | Common utilities shared across projects |
+| Infrastructure | `~/projects/infra/` | Terraform + CI/CD configuration |
+| Claude System | `~/claude-system/` | This meta-system: skills, agents, rules, knowledge base |
+
+## Key Relationships
+
+1. **My App depends on API Server** — Frontend calls the API; changes to API endpoints may require frontend updates
+2. **Shared Libs is used by both** — Breaking changes in shared-libs affect both my-app and api-server
+3. **Infrastructure deploys everything** — CI/CD pipelines, staging, production
+
+## Working Conventions
+
+- Feature branches off `main`, PRs required for merge
+- Tests must pass before merging
+- Use conventional commits (feat:, fix:, docs:, refactor:, test:)
+
+## Skills Reference
+
+Available slash-commands (from `~/.claude/skills/`):
+- `/carryover` — Generate session recovery document before compaction
+- `/debate` — Multi-agent adversarial analysis of hard decisions
+- `/plan-deep` — Recursive hierarchical planning for complex tasks
+- `/gh-scout` — Discover and vet GitHub repos for patterns
+- `/research-papers` — Search academic papers across databases
+- `/research-books` — Find and read books from open sources
+- `/visualize` — Create 2D diagrams (D2, Mermaid, Markmap)
+- `/digest` — Process large data exports into organized archives
+- `/context-audit` — Measure context window efficiency
+- `/session-log` — Archive session to project directory
+- `/session-id` — Find current or past session IDs
+- `/migrate` — Create context migration prompt for new conversation
