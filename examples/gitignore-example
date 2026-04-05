@@ -32,3 +32,4 @@ session-env/
 ## Vault — absolute safety net
 vault/
 .vault/
+mcps/
