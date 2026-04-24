@@ -244,7 +244,7 @@ Edit files here, they take effect immediately. Full git history for every change
 
 ```bash
 # Clone the repo
-git clone https://github.com/Playful-Sincerity/claude-system.git ~/claude-system
+git clone https://github.com/Playful-Sincerity/PSDCMS-Playful-Sincerity-Digital-Core-Meta-System.git ~/claude-system
 
 # Run setup (creates the symlinks from ~/.claude/ → ~/claude-system/)
 cd ~/claude-system
