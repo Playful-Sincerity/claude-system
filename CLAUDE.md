@@ -86,5 +86,5 @@ When the live system evolves, this repo gets updated as part of larger releases 
 ## Related
 
 - **Live ecosystem:** [Playful Sincerity](https://playfulsincerity.com)
-- **Methodology paper:** [Digital Core Methodology](https://github.com/Playful-Sincerity/Digital-Core-Methodology)
+- **Methodology paper:** [Digital Core Methodology](https://github.com/Playful-Sincerity/DCM-Digital-Core-Methodology)
 - **Claude Code docs:** https://docs.anthropic.com/en/docs/claude-code

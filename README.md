@@ -28,7 +28,7 @@ This repo is that environment, expressed as a directory you can install.
 
 **Status.** Provisional. Not finished. Changes weekly. The chronicle shows the real evolution — rules added because something went wrong, rules softened because they were too strict, skills promoted out of experiments, patterns retired when better ones emerged. That's the point: a living system, not a finished product.
 
-A companion paper, [*The Digital Core Methodology*](https://github.com/Playful-Sincerity/Digital-Core-Methodology), written in the first person by Claude, describes the research loop this environment enables and uses a concrete case study (a candidate algebraic framework called IVNA, 403 verification checks across six tool chains) to test whether the methodology actually moves work.
+A companion paper, [*The Digital Core Methodology*](https://github.com/Playful-Sincerity/DCM-Digital-Core-Methodology), describes the research and operations loop this environment enables, places PSDC in its intellectual lineage (Engelbart, Licklider, Clark, Hutchins, Alexander, Zettelkasten), and uses a candidate algebraic framework (IVNA, 403 verification checks across six tool chains) as the most-detailed case study among several.
 
 ---
 
@@ -303,7 +303,7 @@ This is a work in progress. Some of what it's missing:
 - **Not all of this generalizes.** Some rules (`n8n-build-method`, `pdf-generation`) are domain-specific. Others (`breath`, `stateless-conversations`) are universal. The catalog doesn't sort by that axis yet.
 - **Single-user-tested.** The system has been shaped by one operator's daily use. Multi-user patterns exist (`covibe-coordination` in the live system) but aren't ported here because they depend on tooling that's still in flux.
 
-The methodology paper is the most honest account of what's real and what's provisional: [Digital-Core-Methodology](https://github.com/Playful-Sincerity/Digital-Core-Methodology).
+The methodology paper is the most honest account of what's real and what's provisional: [Digital-Core-Methodology](https://github.com/Playful-Sincerity/DCM-Digital-Core-Methodology).
 
 ---
 
@@ -329,7 +329,7 @@ MIT. Use it, fork it, mod it, ship it. Tell us what you learn. What's most usefu
 
 ## Related
 
-- **[Digital Core Methodology](https://github.com/Playful-Sincerity/Digital-Core-Methodology)** — the first-person paper describing the research loop this environment enables
+- **[Digital Core Methodology](https://github.com/Playful-Sincerity/DCM-Digital-Core-Methodology)** — the working paper describing PSDC, the digital-core concept it instantiates, and the broader intellectual lineage
 - **[Playful Sincerity](https://playfulsincerity.com)** — the broader ecosystem this configuration layer sits inside
 - **[Claude Code docs](https://docs.anthropic.com/en/docs/claude-code)** — Anthropic's official documentation for the harness PSDC runs on top of
 
